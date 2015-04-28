@@ -6,6 +6,6 @@ fa-icon: comments
 ---
 
 
-### Also see **README.md** [*on github!*](https://github.com/thomaslohner/slides#contribute)
+### Also see **README.md** [*on github!*](https://github.com/jollyorc/slides#contribute)
 
 
