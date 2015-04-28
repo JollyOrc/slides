@@ -2,7 +2,7 @@
 title: "Catherding"
 bg: blue
 color: white
-fa-icon: tachometer
+fa-icon: windows
 style: left
 ---
 
