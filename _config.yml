@@ -10,13 +10,13 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "Slides, Talks and Workshops | Thomas Lohner | SysEleven"
-keywords:    "Thomas Lohner, Slides, Presentations, Workshops"
+title:       "Slides, Talks and Workshops | Christian Buggedei | SysEleven"
+keywords:    "Christian Buggedei, JollyOrc, Slides, Presentations, Workshops"
 description: "This is a collection of my Talks, Slides and Workshops"
-source_link: "https://ThomasLohner.github.io/slides"
+source_link: "https://jollyorc.github.io/slides"
 #favicon:     "img/favicon.ico"
 #touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-3595616-6
+#google_analytics_key: INSERTHERE
 
 
 ### template colors, used site-wide via css ###
