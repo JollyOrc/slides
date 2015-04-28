@@ -14,4 +14,4 @@ style: left
 
 *German - SysEleven 15 Minutes*
 
-Spätestens mit OpenStack will man Cats statt Cattle. Mit Windows ist das gar nicht so einfach... (**[see slides](Catherding/)**)
+Spätestens mit OpenStack will man Cattle statt Cats. Mit Windows ist das gar nicht so einfach... (**[see slides](Catherding/)**)
