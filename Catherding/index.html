@@ -90,10 +90,10 @@ Quelle: Internet <!-- .element: class="caption" -->
 
 ### Schmerz: Benutzerverwaltung
 
-- Active Directory ist ziemlicher Aufwand
 - Services die über Rechnergrenzen sprechen brauchen aber eine gemeinsame Auth-Basis
 - ablaufende Kennwörter
 - Dienstkennwörter
+- Active Directory ist ziemlicher Aufwand
 - ...
 
 ---
@@ -112,7 +112,7 @@ Quelle: Internet <!-- .element: class="caption" -->
 ### also lieber KMS
 
 - Key Management Service
-- Man aktiviert gegen einen eigenen Server
+- man aktiviert gegen einen eigenen Server
 - braucht spezielle Lizenzen und einen eigenen Lizenzaktivierungsservice
 
 ---
@@ -120,7 +120,8 @@ Quelle: Internet <!-- .element: class="caption" -->
 ### Grundinstallation - Master Images statt Puppet
 
 - ein Image pro Instanztyp 
-- SysPrep nicht vergessen!
+- SysPrep nicht vergessen um das Image zu generalisieren
+- Answer-Datei nicht vergessen!
 - braucht schnelles Cloning
 - frisst Plattenplatz wie Popcorn, es sei denn, man hat Thin Provisioning
 
@@ -150,9 +151,18 @@ Quelle: Internet <!-- .element: class="caption" -->
 
 ---
 
+### Ach ja, das Active Directory...
+
+- ist eine JetDB mit eher übersichtlicher Konsistenzsicherheit
+- ist allerdings fast alternativlos
+- räumt sich nicht selbst auf
+- AD-Server bitte nicht cloudifizieren
+
+---
+
 ### Fazit
 
-- Ja, es geht!
+- Ja, es geht. So halbwegs.
 - Viel höherer Pflegeaufwand
 - saubere Trennung von OS, Konfiguration und Daten ist essentiell
 
@@ -169,7 +179,7 @@ Slides & Contribute:<br>
 
 Contact me:<br>
 <i class="fa fa-google-plus-square"></i> [plus.google.com/+ChristianBuggedei](https://plus.google.com/+ChristianBuggedei/about)<br />
-<i class="fa fa-envelope"></i> [cb@syseleven.de](mailto:cb@syseleven.de)
+<i class="fa fa-envelope"></i> [c.buggedei@syseleven.de](mailto:c.buggedei@syseleven.de)
 
 
 <br>Get Awesome Hosting:<br>
