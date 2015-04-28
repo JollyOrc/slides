@@ -48,18 +48,23 @@ Auch Windows VMs sollten automatisiert provisioniert werden. Leider ist das gar 
 
 ![Catherding](media/catherding.jpg)<!-- .element style="border:none;" -->
 
----
+Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
+--
+
+<iframe data-autoplay class="stretch" src="https://www.youtube.com/embed/vTwJzTsb2QQ" frameborder="0"></iframe>
+
+---
 
 ### Die Sache mit dem Product Key
 
-![](media/catherding-productkey.png)
+![](media/catherding-productkey.png)<!-- .element style="border:none;" -->
 
 ---
 
 ### Updates!
 
-![](media/catherding-Updates.png)
+![](media/catherding-Updates.png)<!-- .element style="border:none;" -->
 
 ---
 
@@ -67,9 +72,16 @@ Auch Windows VMs sollten automatisiert provisioniert werden. Leider ist das gar 
 
 ---
 
-### Softwareinstallationen dauern
+### Puppet geht, aber Softwareinstallationen dauern
 
-![](media/catherding-winreboot.png)
+![](media/catherding-winreboot.png)<!-- .element style="border:none;" -->
+
+---
+
+### Updates?
+
+- In der Regel eines pro Woche
+- Zum Glück nicht alle "kritisch"
 
 ---
 
@@ -77,16 +89,17 @@ Auch Windows VMs sollten automatisiert provisioniert werden. Leider ist das gar 
 
 ---
 
-### MAK
+### MAK drängt sich auf, aber
 
-- Multiple Activation Keys
-- automatisches Deployment frisst aber Aktivierungen wie Popcorn
+- Multiple Activation Key - Ein Key lässt sich x Mal aktivieren
+- automatisches Deployment frisst Aktivierungen wie Popcorn
 
 ---
 
 ### also lieber KMS
 
 - Key Management Service
+- Man aktiviert gegen einen eigenen Server
 - braucht spezielle Lizenzen und einen eigenen Lizenzaktivierungsservice
 
 ---
@@ -100,11 +113,19 @@ Auch Windows VMs sollten automatisiert provisioniert werden. Leider ist das gar 
 
 ---
 
-### Updates?
+### Updates im Master Image
 
-- In der Regel eines pro Woche!
-- Zum Glück nicht alle "kritisch"
-- Gehören ins Master Image
+- Updates brauchen Zeit
+- Updates müssen getestet werden
+- Updates kommen ins Master Image!
+
+--
+
+### Updates im Master Image?!
+
+- Simpel: VM neu aus Master Image instantiieren
+- Komplex: VM bekommt beim Reboot das Master Image "untergeschoben"
+- Das komplexe Vorgehen ist sehr Dockerig, wird von Citrix XenDesktop so betrieben
 
 ---
 
@@ -157,7 +178,7 @@ Get Awesome Hosting:<br>
 			history: true,
 			center: true,
 			slideNumber: false,
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			transition: 'none', // none/fade/slide/convex/concave/zoom
 			// Optional reveal.js plugins
 			dependencies: [
 				{ src: '../reveal.js-3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
