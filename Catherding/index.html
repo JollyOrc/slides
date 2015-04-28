@@ -2,8 +2,8 @@
 <html lang="de">
   <head>
 	<meta charset="utf-8">
-	<title>Catherding - Turning Windows Cats into Cattle</title>
-	<meta name="description" content="1Catherding - Turning Windows Cats into Cattle">
+	<title>Catherding - automatisiertes Windows Deployment</title>
+	<meta name="description" content="Catherding - automatisiertes Windows Deployment">
 	<meta name="author" content="Christian Buggedei">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -32,7 +32,7 @@
 <script type="text/template" >
 <!-- .slide: class="left" data-background="../reveal.js-3.0.0/sys11-images/140212-SYS11-Presentor-Background-01-Title-02-90.png" -->
 
-## Catherding - Turning Windows Cats into Cattle
+## Catherding - automatisiertes Windows Deployment
 
 <aside class="author">
 Christian Buggedei<br>
@@ -42,7 +42,7 @@ PreSales SysEleven GmbH<br>
 
 ---
 
-Auch Windows VMs sollten automatisiert provisioniert werden. Leider ist das gar nicht so einfach...
+Aus Kätzchen soll Vieh werden. Für Windows VMs ist das leider gar nicht so einfach...
 
 ---
 
@@ -56,13 +56,13 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ---
 
-### Die Sache mit dem Product Key
+### Schmerz: Die Sache mit dem Product Key
 
 ![](media/catherding-productkey.png)<!-- .element style="border:none;" -->
 
 ---
 
-### Updates!
+### Schmerz: Updates!
 
 ![](media/catherding-Updates.png)<!-- .element style="border:none;" -->
 
@@ -70,18 +70,22 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ### (und meist dann noch ein paar Updates mehr...)
 
+- In der Regel eines pro Woche
+- Zum Glück nicht alle "kritisch"
+- Updates verursachen vergleichsweise viel Downtime
+
 ---
 
-### Puppet geht, aber Softwareinstallationen dauern
+### Schmerz: Puppet geht, aber Softwareinstallationen dauern
 
 ![](media/catherding-winreboot.png)<!-- .element style="border:none;" -->
 
 ---
 
-### Updates?
+### Schmerz: Benutzerverwaltung
 
-- In der Regel eines pro Woche
-- Zum Glück nicht alle "kritisch"
+- AD
+- Services sprechen über Rechnergrenzen?
 
 ---
 
@@ -89,7 +93,7 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ---
 
-### MAK drängt sich auf, aber
+### Product Key - MAK drängt sich auf, aber
 
 - Multiple Activation Key - Ein Key lässt sich x Mal aktivieren
 - automatisches Deployment frisst Aktivierungen wie Popcorn
@@ -104,7 +108,7 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ---
 
-### Master Images statt Neuinstallationen
+### Grundinstallation - Master Images statt Puppet
 
 - ein Image pro Instanztyp 
 - SysPrep nicht vergessen!
@@ -129,7 +133,7 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ---
 
-### Security?
+### Userverwaltung
 
 - lokale Userverwaltung ist doof
 - Idealerweise hat jeder Kunde ein eigenes Active Directory
@@ -139,6 +143,7 @@ Standbild von EDS Werbevideo <!-- .element: class="caption" -->
 
 ### Fazit
 
+- Ja, es geht!
 - Viel höherer Pflegeaufwand
 - saubere Trennung von OS, Konfiguration und Daten ist essentiell
 
@@ -155,7 +160,7 @@ Slides & Contribute:<br>
 [ChristianBuggedei.github.io](https://ChristianBuggedei.github.io/slides/)
 
 Contact me:<br>
-<i class="fa fa-facebook-official"></i> [plus.google.com/u/0/+ChristianBuggedei/](https://plus.google.com/u/0/+ChristianBuggedei/)<br />
+<i class="fa fa-google-plus-square"></i> [plus.google.com/u/0/+ChristianBuggedei/](https://plus.google.com/u/0/+ChristianBuggedei/)<br />
 <i class="fa fa-envelope"></i> [cb@syseleven.de](mailto:cb@syseleven.de)
 
 Get Awesome Hosting:<br>
