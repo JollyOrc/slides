@@ -11,10 +11,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-image: url(../../sys11-images/140212-SYS11-Presentor-Background-01-Quote-01-572.png);
-  background-size:   cover;
+  background-image: url(../../sys11-images/SysElevenLogo.png), url(../../sys11-images/SysElevenNoiseHD.png);
+  background-size:   207px 99px, cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 97% 3%, center center;
   background-color: #222; }
 
 .reveal {
@@ -38,6 +38,16 @@ body {
  *********************************************/
 .left {
   text-align: left; }
+  
+.titleslide {
+  text-align: left;
+  background-image: url(../../sys11-images/SysElevenSwirl.png), url(../../sys11-images/SysElevenNoiseHD.png);
+  background-size:   837px 381px, cover;
+  background-repeat: no-repeat;
+  background-position: 3% 37%, center center;
+  background-color: #222; }  	
+	
+}
 
 .right {
 	text-align: right; }
