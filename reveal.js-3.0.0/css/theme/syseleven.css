@@ -38,7 +38,11 @@ body {
  *********************************************/
 .left {
   text-align: left; }
-  
+
+
+/*
+  Erster Versuch der Anpassung für das Titleslide. 
+  */  
 .titleslide {
   text-align: left;
   background-image: url(../../sys11-images/SysElevenSwirl.png), url(../../sys11-images/SysElevenNoiseHD.png);
