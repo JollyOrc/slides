@@ -55,7 +55,6 @@ EDS Werbevideo <!-- .element: class="caption" -->
 <iframe data-autoplay class="stretch" src="https://www.youtube.com/embed/vTwJzTsb2QQ" frameborder="0"></iframe>
 
 ---
-
 ### Schmerz: Die Sache mit dem Product Key
 
 ![](media/catherding-productkey.png)<!-- .element style="border:none;" -->
@@ -141,6 +140,16 @@ Quelle: Internet <!-- .element: class="caption" -->
 - Komplex: VM bekommt beim Reboot das Master Image "untergeschoben"
 - Das komplexe Vorgehen ist sehr Dockerig, wird von Citrix XenDesktop so betrieben
 
+--
+
+### Srsly, XenDesktop
+
+- nicht wirklich mandantenfähig
+- konzentriert sich auf das Ausliefern von Desktops & Apps
+- auf Windows zugeschnitten
+- recht clever was Personal VDisks angeht
+- Häufig genausoviel Infrastruktur wie produktive Systeme
+
 ---
 
 ### Userverwaltung
@@ -160,11 +169,31 @@ Quelle: Internet <!-- .element: class="caption" -->
 
 ---
 
+### Was ich Euch nicht erzählte
+
+- Azure
+- Azure Stack
+- Cloud Active Directory
+- ...
+- Denn all das löst die VM Probleme nicht!<!-- .element: class="fragment" -->
+
+---
+
 ### Fazit
 
 - Ja, es geht. So halbwegs.
 - Viel höherer Pflegeaufwand
 - saubere Trennung von OS, Konfiguration und Daten ist essentiell
+- aber... <!-- .element: class="fragment" -->
+
+---
+
+### ...Microsoft hat das Problem erkannt..
+
+- ...wenn auch nicht so benannt.<!-- .element: class="fragment"  data-fragment-index="1"-->
+- Nano Server angekündigt<!-- .element: class="fragment"  data-fragment-index="2" -->
+- Windows 10 auf Raspi2 wird fast nur noch per API konfiguriert<!-- .element: class="fragment"  data-fragment-index="2"-->
+- Immer mehr "Cloud Produkte" im Lineup<!-- .element: class="fragment"  data-fragment-index="2"-->
 
 ---
 
