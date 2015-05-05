@@ -17,17 +17,6 @@ body {
   background-position: 97% 3%, center center;
   background-color: #222; }
 
-  /*
-  Erster Versuch der Anpassung für das Titleslide. 
-  */  
- html.Titleslide .state-background {
-  background-image: url(../../sys11-images/SysElevenLogo.png);
-  background-size: 837px 381px;
-  background-repeat: no-repeat;
-  background-position: 3% 37%;
- }  
-  
-  
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 38px;
@@ -49,6 +38,20 @@ body {
  *********************************************/
 .left {
   text-align: left; }
+
+
+/*
+  Erster Versuch der Anpassung für das Titleslide. 
+  */  
+.titleslide {
+  text-align: left;
+  background-image: url(../../sys11-images/SysElevenSwirl.png), url(../../sys11-images/SysElevenNoiseHD.png);
+  background-size:   837px 381px, cover;
+  background-repeat: no-repeat;
+  background-position: 3% 37%, center center;
+  background-color: #222; }  	
+	
+}
 
 .right {
 	text-align: right; }
