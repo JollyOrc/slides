@@ -10,6 +10,21 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+  
+/* How to use the swoosh: 
+ ************************ 
+ * To have the title slide different than the
+ * others, just prefix the slide with this: 
+ * 
+ * <!-- .slide: class="left" data-state="swoosh" -->
+ *
+ * This will move the SysEleven logo to the left 
+ * and add the Swirl to the lower left corner
+ * 
+ * You can still use data-background for other
+ * slides, but that will only act as an overlay
+ * over the existing backgrounds    
+ */
 .swoosh body:before {
 	background-position: 3% 3%;
 }  
