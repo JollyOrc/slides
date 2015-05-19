@@ -106,15 +106,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .left {
   text-align: left; }
 
-.titleslide {
-  text-align: left;
-  background-image: url(../../sys11-images/SysElevenSwirl.png), url(../../sys11-images/SysElevenNoiseHD.png);
-  background-size:   837px 381px, cover;
-  background-repeat: no-repeat;
-  background-position: 3% 37%, center center;
-  background-color: #222;
-}
-
 .right {
 	text-align: right; }
 
