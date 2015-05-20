@@ -27,7 +27,7 @@
     <div class="reveal">
       <div class="slides">
 
-<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$"  data-separator-notes="^Note:">
 <pre><code></code></pre>
 <script type="text/template" >
 <!-- .slide: class="left" data-state="swoosh" -->
@@ -40,11 +40,17 @@ PreSales, SysEleven GmbH<br>
 <span class="location">15 Minutes @ SysEleven</span>
 </aside>
 
+Note:
+15 Minuten Windows Deployment Schmerzen und mögliche Automatisierungslösungen
+
 ---
 
 "Wenn Du <strike>ssh</strike> rdp benutzt, kannst Du auch gleich ein Ticket aufmachen."
 
 Nicht Kris, der hat ja keine Ahnung von Windows<!-- .element style="color:green; font-size:small; "-->
+
+Note:
+Querverweis zu https://plus.google.com/photos/+KristianK%C3%B6hntopp/albums/6130916168044697825
 
 ---
 
@@ -53,6 +59,11 @@ Nicht Kris, der hat ja keine Ahnung von Windows<!-- .element style="color:green;
 - vollautomatisches Deployment<!-- .element: class="fragment"  data-fragment-index="1"  -->
 - in akzeptabler Zeit (Minuten, nicht Stunden)<!-- .element: class="fragment"  data-fragment-index="1" -->
 - Rebuild statt Backup<!-- .element: class="fragment"  data-fragment-index="1"  -->
+
+Note:
+Eine Erklärung des Scope: Was ist mit "automatisiertes Deployment" gemeint, was soll erreicht, was vermieden werden.
+
+Kätzchen kann jeder.
 
 ---
 
@@ -63,6 +74,8 @@ Für Windows VMs ist das etwas komplizierter...
 ![Catherding](media/catherding.jpg)<!-- .element style="border:none;" -->
 
 EDS Werbevideo <!-- .element: class="caption" -->
+
+Note: Es folgt das Video.
 
 --
 
@@ -76,6 +89,9 @@ EDS Werbevideo <!-- .element: class="caption" -->
 
 Quelle: Internet <!-- .element: class="caption" -->
 
+Note:
+Product Keys sind bei Azure übrigens voraktiviert.
+
 ---
 
 ### Schmerz: Updates!
@@ -84,13 +100,16 @@ Quelle: Internet <!-- .element: class="caption" -->
 
 Quelle: Internet <!-- .element: class="caption" -->
 
+Note:
+So ein Service Pack installiert gerne mal eine Stunde herum..
+
 ---
 
 ### und meist dann noch ein paar Updates mehr...
 
 ![](media/catherding-Reboot.png)<!-- .element style="border:none;" -->
 
-- In der Regel einmal pro Woche
+- In der Regel grob einmal pro Woche
 - Zum Glück nicht alle "kritisch"
 - Updates verursachen vergleichsweise viel Downtime
 
@@ -102,6 +121,9 @@ Quelle: Internet <!-- .element: class="caption" -->
 
 Quelle: Internet <!-- .element: class="caption" -->
 
+Note:
+Das geht manchmal besser, manchmal schlechter. Mit Dockerigen Lösungen kann man z.B. Softwarepakete einfach reinkopieren, aber will man das?
+
 ---
 
 ### Schmerz: Benutzerverwaltung
@@ -111,6 +133,9 @@ Quelle: Internet <!-- .element: class="caption" -->
 - Services die über Rechnergrenzen sprechen, brauchen gemeinsame Auth-Basis
 - Active Directory ist ziemlicher Aufwand
 - ...
+
+Note:
+Fun fact: Wenn es ein Konto ohne Kennwort gibt, lassen manche Windows Versionen keine Netzwerkanmeldungen zu. Es sei denn, man ist in einer AD-Domäne. Die Lektion hier ist, dass Windows intern seltsame Abhängigkeiten hat, und die Benutzerverwaltung hier keine Ausnahme ist.
 
 ---
 
