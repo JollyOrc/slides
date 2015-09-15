@@ -1,5 +1,5 @@
 ## This is a collection of my Talks, Slides and Workshops.
-I do give the occasional talk. These days, they will probably have something to do with Webhosting, DevOps or eCommerce, as I work at [SysEleven](http://www.syseleven.de/) - a High-End Hosting Provider specialized in Scalability and Performance. If you plan on doing TV-Commercials you should **seriously consider SysEleven**.
+I do give the occasional talk.
 
 ## This is a Github Pages Repository
 I've created the website with [Jekyll](http://jekyllrb.com) using the theme [SinglePaged theme](https://github.com/t413/SinglePaged) and icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/). This is the Source-Repository for building the site:
